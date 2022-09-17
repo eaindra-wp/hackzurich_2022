@@ -58,11 +58,18 @@ We used Google Maps Direction API, Geocoding API, and JavaScript to obtain coord
 
 https://cloud.google.com/natural-language/docs/basics#sentiment_analysis
 
+## Challenges we ran into
+Some SQL related function names on BigQuery are different from other SQLs such as PostgreSQL. Thanks to this challenge, we also learned different syntaxes for BigQuery. 
 
-### Further Development:
 
-For now, we have only displayed one route for demenstoration purposes. This can be modified such that the user can enter their diseried 
-References:
+## What we learned
+While working on this challenge, we got an opportunity to write SQL queries on Google BigQuery more efficiently to combine and retrieve values from the datasets. Additionally, we explored more on Google Maps Direction API, Geocoding API, ReTool, and NLP while retrieving potential city names for successful shipments in the future.
+
+## Further Development
+
+For now, we have only displayed one route for demenstoration purposes. This can be modified such that the user can enter their diseried.
+
+## References
 
 https://blog.gdeltproject.org/announcing-the-global-entity-graph-geg-and-a-new-11-billion-entity-dataset/
 
