@@ -39,8 +39,8 @@ On our dashboard, we also show a “Threat Level” which is derived by simply r
 ### Migros Data Analysis
 From Migros, we received datasets which keep track of shipment routes, timeframes and locations of the departures and arrivals of containers around the globe. 
 
-Firstly, we filtered the names of the cities which are considered as risk areas according to the negative scores we received from the Sentiment Analysis, to check any orders/shipments which would go through those risk areas. 
-Afterward, we retrieved the mandatory information, such as the estimated and actual datetimes, location names the departure and arrival cities of each container from different datasests of Migros. 
+Firstly, we filtered the names of the cities which are considered as risk areas according to the negative scores we received from the Sentiment Analysis, to check any orders/shipments which would go through those risk areas. <br/>
+Afterward, we retrieved the mandatory information, such as the estimated and actual datetimes, location names the departure and arrival cities of each container from different datasests of Migros. <br/>
 In this way, we detected the number of days the shipment was delayed to reach the final destination, which is considered as a risk area.  
 
 
@@ -80,5 +80,5 @@ https://developers.google.com/maps/documentation/directions/overview
 https://cloud.google.com/bigquery/docs
 
 ### Google Clouds Credentials
-Project ID: hackzurich22-4070
-Project Number: 451917323108
+Project ID: hackzurich22-4070 <br/>
+Project Number: 451917323108 <br/>
