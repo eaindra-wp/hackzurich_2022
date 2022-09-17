@@ -93,6 +93,8 @@ It was a great opportunity to brush up Google BigQuery SQL querying skills. Retr
 
 * Instead of the free Geonames (city, country names) dataset, we should ideally switch to a better (paid) version of it. This will improve accuracy of our system. 
 
+* Include weather data
+
 ## References
 
 https://blog.gdeltproject.org/announcing-the-global-entity-graph-geg-and-a-new-11-billion-entity-dataset/
