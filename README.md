@@ -42,24 +42,24 @@ From Migros, we received datasets which keep track of shipment routes, timeframe
 Firstly, we filtered the names of the cities which are considered as risk areas according to the negative scores we received from the Sentiment Analysis, to check any orders/shipments which would go through those risk areas. Afterward, we retrieved the mandatory information, such as the estimated and actual datetimes, location names the departure and arrival cities of each container from different datasests of Migros. In this way, we detected the number of days the shipment was delayed to reach the final destination, which is considered as a risk area.  
 
 
-Tech Stack:
+## Tech Stack
 
-Database:
+### Database
 
 To interact with the database and link it to our front-end, we used SQL and Google BigQuery.
 
-Front-end:
+### Front-end
 
 Retool, JavaScript
 
-Maps:
+### Maps
 
 We used Google Maps Direction API, Geocoding API, and JavaScript to obtain coordinates to draw points and route lines.
 
 https://cloud.google.com/natural-language/docs/basics#sentiment_analysis
 
 
-Further Development:
+### Further Development:
 
 For now, we have only displayed one route for demenstoration purposes. This can be modified such that the user can enter their diseried 
 References:
