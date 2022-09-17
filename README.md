@@ -77,3 +77,6 @@ https://developers.google.com/maps/documentation/directions/overview
 
 https://cloud.google.com/bigquery/docs
 
+### Google Clouds Credentials
+Project ID: hackzurich22-4070
+Project Number: 451917323108
