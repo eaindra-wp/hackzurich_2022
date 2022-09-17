@@ -1,5 +1,7 @@
 # SUPPLY KNIGHTS
 
+Demo: https://ukuphepha.retool.com/embedded/public/37221284-4f26-4121-8d31-4554990cbd5c
+
 ## Summary
 
 We developed a mechanism through which logistics managers can monitor global events that might cause hinderances in their supplies or deliveres. Our project is a dashboard that pin points any relevant locations where some unusual event occurred recently and is likely to have an adverse effect on the supply chain.
