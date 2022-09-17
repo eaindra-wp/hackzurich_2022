@@ -14,9 +14,9 @@ When a user clicks on an “X” mark, a modal opens that gives more details reg
 
 Apart from the Migros provided data, we used the public GDELT data source. GDELT monitors print, broadcast, and web news media in over 100 languages from across every country in the world to keep continually updated on breaking developments anywhere on the planet. 
 
-The GDELT Event Database records over 300 categories of physical activities around the world, from riots and protests to peace appeals and diplomatic exchanges, georeferenced to the city or mountaintop, across the entire planet dating back to January 1, 1979 and updated every 15 minutes.
+The GDELT Event Database records over 300 categories of physical activities around the world, from riots and protests to peace appeals and diplomatic exchanges across the entire planet dating back to January 1, 1979 and updated every 15 minutes.
 
-Our program uses the GDELT data to locate disturbances across the globe on the basis of different news mediums.
+Our program uses the GDELT (Global Entity Graph) data to locate disturbances across the globe on the basis of different news mediums.
 
 ### Genomes
 
