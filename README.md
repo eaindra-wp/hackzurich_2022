@@ -39,11 +39,14 @@ For our current dashboard, we classify incidents with a score lower than -0.1 as
 On our dashboard, we also show a “Threat Level” which is derived by simply rounding the magnitude value for now. The logic for this could be further improved. 
 
 ### Migros Data Analysis
-From Migros, we received datasets which keep track of shipment routes, timeframes and locations of the departures and arrivals of containers around the globe. 
+
+The second part of our dashboard focuses on the datasets we received from Migros. These datasets keep track of shipment routes, timeframes, and locations of the departures and arrivals of containers around the globe. 
 
 Firstly, we filtered the names of the cities which are considered as risk areas according to the negative scores we received from the Sentiment Analysis, to check any orders/shipments which would go through those risk areas. <br/>
 Afterward, we retrieved the mandatory information, such as the estimated and actual datetimes, location names the departure and arrival cities of each container from different datasests of Migros. <br/>
 In this way, we detected the number of days the shipment was delayed to reach the final destination, which is considered as a risk area.  
+
+This data is presented as as a table for moderators to view and analyze. 
 
 
 ## Tech Stack
@@ -67,11 +70,14 @@ Some SQL related function names on BigQuery are different from other SQLs such a
 
 
 ## What we learned
-While working on this challenge, we got an opportunity to write SQL queries on Google BigQuery more efficiently to combine and retrieve values from the datasets. Additionally, we explored more on Google Maps Direction API, Geocoding API, ReTool, and NLP while retrieving potential city names for successful shipments in the future.
+
+It was a great opportunity to brush up Google BigQuery SQL querying skills. Retrieving and combining data from different sources was challenging yet intriguing. Additionally, we got to explore interesting technologies like Google Maps Direction API, Geocoding API, ReTool, and NLP API while retrieving potential city names for successful shipments in the future.
 
 ## Further Development
 
-For now, we have only displayed one route for demenstoration purposes. This can be modified such that the user can enter their diseried.
+* For now, we have only displayed one shipment route for demenstoration purposes. This can be modified such that the user can enter their disired origin and destination locations which can then be displayed on the maps.
+
+* Instead of the free Geonames (city, country names) dataset, we should ideally switch to a better (paid) version of it. This will improve accuracy of our system. 
 
 ## References
 
