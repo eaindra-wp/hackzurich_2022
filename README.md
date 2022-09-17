@@ -28,9 +28,9 @@ Geonames - All Cities with a population > 1000 dataset to match different articl
 
 Google’s Natural Language API allows users to scan texts and obtain a sentiment and magnitude score accordingly. In our use case, the API is used to derive scores for different news articles.
 
-score: sentiment score values lie in the range of -1 (negative) to 1 (positive) and reflect the overall emotion of the news. 
-﻿
-magnitude: magnitude indicates the overall strength of emotion (both positive and negative) within the given text, between 0.0 and +inf.
+* score: sentiment score values lie in the range of -1 (negative) to 1 (positive) and reflect the overall emotion of the news. 
+
+* magnitude: magnitude indicates the overall strength of emotion (both positive and negative) within the given text, between 0.0 and +inf.
 
 For our current dashboard, we classify incidents with a score lower than -0.1 as potential risks. Hence, we mark them all on our map. This can be modified.
 
@@ -39,7 +39,9 @@ On our dashboard, we also show a “Threat Level” which is derived by simply r
 ### Migros Data Analysis
 From Migros, we received datasets which keep track of shipment routes, timeframes and locations of the departures and arrivals of containers around the globe. 
 
-Firstly, we filtered the names of the cities which are considered as risk areas according to the negative scores we received from the Sentiment Analysis, to check any orders/shipments which would go through those risk areas. Afterward, we retrieved the mandatory information, such as the estimated and actual datetimes, location names the departure and arrival cities of each container from different datasests of Migros. In this way, we detected the number of days the shipment was delayed to reach the final destination, which is considered as a risk area.  
+Firstly, we filtered the names of the cities which are considered as risk areas according to the negative scores we received from the Sentiment Analysis, to check any orders/shipments which would go through those risk areas. 
+Afterward, we retrieved the mandatory information, such as the estimated and actual datetimes, location names the departure and arrival cities of each container from different datasests of Migros. 
+In this way, we detected the number of days the shipment was delayed to reach the final destination, which is considered as a risk area.  
 
 
 ## Tech Stack
