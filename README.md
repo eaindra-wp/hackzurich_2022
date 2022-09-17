@@ -66,6 +66,19 @@ We used Google Maps Direction API, Geocoding API, and JavaScript to obtain coord
 
 https://cloud.google.com/natural-language/docs/basics#sentiment_analysis
 
+### File Directory
+Below is a short summary of the folders in this repository.
+* [geonames_datasets](./geonames_datasets) --> this includes the dataset for location name and geography mapping
+* [javascript](./javascript) --> this includes JS files required for mappings
+  * for the directions to GEO and coordinate extractions of the selected locations
+* [sql](./sql) --> this contains SQL scripts for the data analysis on Migros datasets and Genomes
+  * [coordinates.sql](./sql/coordinates.sql) --> extract coordinates of particular locations from Geonames dataset
+  * [delays_from_risk_areas.sql](./sql/delays_from_risk_areas.sql) --> extract important shipment details from provided Migros datasets, including locations and timeframes details for departures and arrivals of all shipments, which are affected by the risks around the cities along the shipping routes
+  * [get_full_sentiment_data.sql](./sql/get_full_sentiment_data.sql) --> extract sentimental scores of the selected locations to determine the risk rates
+  * [get_geonames_coordinates.sql](./sql/et_geonames_coordinates.sql) --> divide the selected coordinate names into lat and long 
+  * [risk_area_names.sql](./sql/risk_area_names.sql) --> extract risk area city names from Geonames dataset
+ 
+
 ## Challenges we ran into
 Some SQL related function names on BigQuery are different from other SQLs such as PostgreSQL. Thanks to this challenge, we also learned different syntaxes for BigQuery. 
 
