@@ -25,6 +25,7 @@ Our program uses the GDELT (Global Entity Graph) data to locate disturbances acr
 We used OpenDataSoft’s 
 Geonames - All Cities with a population > 1000 dataset to match different articles with their respective cities or countries and geographical coordinates. The performance of this process can be improved by opting for a better, paid dataset.  
 
+https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/table/?disjunctive.cou_name_en&sort=name&q=tullow
 
 ### Sentiment Analysis
 
