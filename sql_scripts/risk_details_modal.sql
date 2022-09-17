@@ -1,0 +1,1 @@
+select round(magnitude) as magnitude, url, name from `hackzurich22-4070.migros.UNIQUE` where SPLIT(`coordinates`, ',')[safe_ordinal(2)] = {{ mapboxMap1.selectedPoint.longitude }} and SPLIT(`coordinates`, ',')[safe_ordinal(1)] = {{ mapboxMap1.selectedPoint.latitude }} 
